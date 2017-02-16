@@ -7,6 +7,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.atguigu.im1020.R;
 import com.atguigu.im1020.modle.Modle;
@@ -38,7 +39,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.inject(this);
-
+Toast.makeText(LoginActivity.this, "111111", Toast.LENGTH_SHORT).show();
 
     }
 
