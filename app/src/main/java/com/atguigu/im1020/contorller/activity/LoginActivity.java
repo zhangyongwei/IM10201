@@ -40,6 +40,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         ButterKnife.inject(this);
 Toast.makeText(LoginActivity.this, "111111", Toast.LENGTH_SHORT).show();
+        Toast.makeText(LoginActivity.this, "111111", Toast.LENGTH_SHORT).show();
 
     }
 
